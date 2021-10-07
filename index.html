@@ -24,42 +24,49 @@
                     <i class='bx bx-search' ></i>
                     <input type="text" placeholder="not now">
                 </a>
-                <span class="tooltip">Dashboard</span>
+                <span class="tooltip">Search</span>
             </li>
             <li>
                 <a href=#>
                     <i class='bx bx-user' ></i>
-                    <span class="link_names">About Me</span>
+                    <span class="links_names">About Me</span>
                 </a>
-                <span class="tooltip">Dashboard</span>
-            </li>
-            <li>
-                <a href=#>
-                    <i class='bx bxl-python' ></i>
-                    <span class="link_names">Python</span>
-                </a>
-                <span class="tooltip">Dashboard</span>
+                <span class="tooltip">About Me</span>
             </li>
             <li>
                 <a href=#>
                     <i class='bx bx-coffee' ></i>
-                    <span class="link_names">Java</span>
+                    <span class="links_names">Java</span>
                 </a>
-                <span class="tooltip">Dashboard</span>
+                <span class="tooltip">Java</span>
+            </li>
+            <li>
+                <a href=#>
+                    <i class='bx bxl-python' ></i>
+                    <span class="links_names">Python</span>
+                </a>
+                <span class="tooltip">Python</span>
             </li>
             <li>
                 <a href=#>
                     <i class='bx bxl-spring-boot' ></i>
-                    <span class="link_names">Spring</span>
+                    <span class="links_names">Spring</span>
                 </a>
-                <span class="tooltip">Dashboard</span>
+                <span class="tooltip">Spring</span>
             </li>
             <li>
                 <a href=#>
                     <i class='bx bxl-html5' ></i>
-                    <span class="link_names">HTML5</span>
+                    <span class="links_names">HTML5</span>
                 </a>
-                <span class="tooltip">Dashboard</span>
+                <span class="tooltip">HTML5</span>
+            </li>
+            <li>
+                <a href="https://www.github.com/PolkaDot31361" target="_blank">
+                    <i class='bx bxl-github' ></i>
+                    <span class="links_names">GitHub</span>
+                </a>
+                <span class="tooltip">GitHub</span>
             </li>
         </ul>
         <div class="profile_content">
@@ -78,5 +85,17 @@
     <div class="home_content">
         <div class="text">Home Content</div>
     </div>
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        let searchBtn = document.querySelector(".bx-search");
+
+        btn.onclick = function(){
+            sidebar.classList.toggle("active");
+        }
+        searchBtn.onclick =function(){
+            sidebar.classList.toggle("active");
+        }
+    </script>
 </body>
 </html>
