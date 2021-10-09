@@ -15,10 +15,10 @@
     transition: all 0.5s ease;
 }
 .sidebar.close{
-    width: 78px;
+    width: 80px;
 }
 .sidebar .logo_details{
-    height: 60px;
+    height: 80px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@
     font-size: 30px;
     color: #ffffff;
     font-weight: 600;
-    min-width: 78px;
+    min-width: 80px;
     height: 50px;
     line-height: 50px;
     text-align: center;
@@ -72,7 +72,7 @@
     display: block;
 }
 .sidebar .nav_links li i{
-    min-width: 78px;
+    min-width: 80px;
     height: 50px;
     line-height: 50px;
     text-align: center;
@@ -173,7 +173,7 @@
     transition: all 0.5s ease;
 }
 .sidebar.close .profile_details{
-    width: 78px;
+    width: 80px;
     background : none;
 
 }
@@ -217,15 +217,17 @@
     transition:  all 0.5s ease;
 }
 .sidebar.close ~ .home_section{
-    left: 78px;
+    left: 80px;
     width: 100% ;
 }
-.home_section .home_content{
+.home_section .home_head{
     /* height: 60px; */
     display: flex;
     align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
 }
-.home_section .home_content .text{
+.home_section .home_head .text{
     color: #11101d;
     margin: 10px 25px;
     font-size: 26px;
