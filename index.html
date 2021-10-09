@@ -6,87 +6,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Polkadot31361</title>
     <!--Boxicon CDN Link-->
-    <link rel="stylesheet" href="resources/css/style.css">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="resources/css/sidebar.css" rel="stylesheet">
 </head>
 <body>
     <div class="sidebar">
-        <div class="logo_content">
-            <div class="logo">
-                <i class='bx bxl-github' ></i>
-                <div class="logo_name">Polkadot31361</div>
-            </div>
-            <i class='bx bx-menu' id="btn"></i>
+        <div class="logo_details">
+            <i class='bx bxl-github' ></i>
+            <span class="logo_name">Polkadot31361</span>
         </div>
-        <ul class="nav_list">
+        <ul class="nav_links">
             <li>
-                <a href=#>
-                    <i class='bx bx-search' ></i>
-                    <input type="text" placeholder="not now">
-                </a>
-                <span class="tooltip">Search</span>
-            </li>
-            <li>
-                <a href=#>
+                <a href="#">
                     <i class='bx bx-user' ></i>
-                    <span class="links_names">About Me</span>
+                    <span class="link_name">About Me</span>
                 </a>
-                <span class="tooltip">About Me</span>
+                <ul class="sub_menu blank">
+                    <li><a class="link_name" href="#">About Me</a></li>
+                </ul>
             </li>
             <li>
-                <a href=#>
-                    <i class='bx bx-coffee' ></i>
-                    <span class="links_names">Java</span>
-                </a>
-                <span class="tooltip">Java</span>
+                <div class="icon_link">
+                    <a href=#>
+                        <i class='bx bx-coffee' ></i>
+                        <span class="link_name">Java</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub_menu">
+                    <li><a class="link_name" href="#">Java</a></li>
+                    <li><a href="#">Pure Java</a></li>
+                    <li><a href="#">myBatis</a></li>
+                    <li><a href="#">Practice</a></li>
+                </ul>
             </li>
             <li>
-                <a href=#>
-                    <i class='bx bxl-python' ></i>
-                    <span class="links_names">Python</span>
-                </a>
-                <span class="tooltip">Python</span>
+                <div class="icon_link">
+                    <a href=#>
+                        <i class='bx bxl-python' ></i>
+                        <span class="link_name">Python</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub_menu">
+                    <li><a class="link_name" href="#">Python</a></li>
+                    <li><a href="#">Pure Python</a></li>
+                    <li><a href="#">Numpy</a></li>
+                    <li><a href="#">Pandas</a></li>
+                    <li><a href="#">Practice</a></li>
+                </ul>
             </li>
             <li>
-                <a href=#>
+                <a href="#">
+                    <i class='bx bxl-html5'></i>
+                    <span class="link_name">HTML & CSS</span>
+                </a>
+                <ul class="sub_menu blank">
+                    <li><a class="link_name" href="#">HTML & CSS</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="icon_link">
+                    <a href=#>
+                        <i class='bx bxl-javascript' ></i>
+                        <span class="link_name">JavaScript</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub_menu">
+                    <li><a class="link_name" href="#">JavaScript</a></li>
+                    <li><a href="#">Pure JS</a></li>
+                    <li><a href="#">jQuery</a></li>
+                    <li><a href="#">ajax</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
                     <i class='bx bxl-spring-boot' ></i>
-                    <span class="links_names">Spring</span>
+                    <span class="link_name" href="#">Spring</span>
                 </a>
-                <span class="tooltip">Spring</span>
+                <ul class="sub_menu blank">
+                    <li><a class="link_name" href="#">Spring</a></li>
+                </ul>
             </li>
             <li>
-                <a href=#>
-                    <i class='bx bxl-html5' ></i>
-                    <span class="links_names">HTML5</span>
-                </a>
-                <span class="tooltip">HTML5</span>
+                <div class="icon_link">
+                    <a href=#>
+                        <i class='bx bx-data' ></i>
+                        <span class="link_name">Others</span>
+                    </a>
+                    <i class='bx bxs-chevron-down arrow'></i>
+                </div>
+                <ul class="sub_menu">
+                    <li><a class="link_name" href="#">Others</a></li>
+                    <li><a href="#">SQL</a></li>
+                    <li><a href="#">R</a></li>
+                </ul>
             </li>
             <li>
-                <a href="https://www.github.com/PolkaDot31361" target="_blank">
+                <a href="#">
                     <i class='bx bxl-github' ></i>
-                    <span class="links_names">GitHub</span>
+                    <span class="link_name" href="#">Github</span>
                 </a>
-                <span class="tooltip">GitHub</span>
+                <ul class="sub_menu blank">
+                    <li><a class="link_name" href="#">Github</a></li>
+                </ul>
+            </li>
+            <li>
+                <i class='bx bx-menu' ></i>
+            </li>
+            <li> 
+            <div class="profile_details">
+                <div class="profile_content">
+                    <img src="./resources/images/profile.jpg" alt="profile">
+                </div>
+                    
+                    <div class="name_job">
+                        <div class="profile_name">Polkadot</div>
+                        <div class="profile_job">aka M</div>
+                    </div>
+                    <a><i class='bx bx-home' ></i></a>
+                </div>
             </li>
         </ul>
-        <div class="profile_content">
-            <div class="profile">
-                <div class="profile_details">
-                    <img src="resources/images/letsthink.png">
-                    <div class="name_job">
-                        <div class="name">M</div>
-                        <div class="job">Polkadots</div>
-                    </div>
-                </div>
-                <i class='bx bx-log-out' id="log_out"></i>
-            </div>
+    </div>
+    <section class="home_section">
+        <div class="home_content">
+            <span class="text">Home Content here</span>
         </div>
-    </div>
-    <div class="home_content">
-        <div class="text">Home Content</div>
-    </div>
-    <script type="text/javascript" src="resources/js/index.js">
-       
-    </script>
+    </section>
+    <script type="text/JavaScript" src="resources/js/sidebar.js"></script>
 </body>
 </html>
