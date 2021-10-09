@@ -4,8 +4,22 @@
 }   
 .intro{
     margin-top: 50px;
-    border : 2px solid black;
+    border : 2px solid hsl(245, 29%, 15%);
     display: flex;
     align-items: left;
     flex-direction: column;
+}
+.code_block{
+    white-space: pre;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.code_block code{
+    width: 60%;
+    background-color: hsla(245, 19%, 85%, 0.4);
+    display: block;
+    border : 2px solid black;
+    overflow: auto;
+    padding: 15px;
 }
