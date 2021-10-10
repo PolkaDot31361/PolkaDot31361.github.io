@@ -2,13 +2,6 @@
     font-size: 50px;
     font-weight: 600;
 }   
-.intro{
-    margin-top: 50px;
-    border : 2px solid hsl(245, 29%, 15%);
-    display: flex;
-    align-items: left;
-    flex-direction: column;
-}
 .code_block{
     white-space: pre;
     display: flex;
