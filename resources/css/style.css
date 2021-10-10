@@ -1,18 +1,25 @@
 .home_section .home_head .title{
     font-size: 50px;
     font-weight: 600;
-}   
+}  
+.home_section .home_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
 .code_block{
     white-space: pre;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: 15px;
 }
 .code_block code{
-    width: 60%;
+    width: 100%;
+    border-radius : 16px;
     background-color: hsla(245, 19%, 85%, 0.4);
     display: block;
-    border : 2px solid black;
+    /* border : 2px solid black; */
     overflow: auto;
-    padding: 15px;
+    padding: 15px 60px;
 }

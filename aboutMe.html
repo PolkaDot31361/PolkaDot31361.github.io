@@ -14,16 +14,35 @@
             padding : 10px;
             font-size: 20px;
             margin-top: 50px;
-            border : 2px solid hsl(245, 29%, 15%);
+            /* border : 2px solid hsl(245, 29%, 15%); */
             display: flex;
             align-items: left;
             flex-direction: column;
+            width: 80%;
+            min-width: 500px;
         }
-        p{
-            transition: all 0.3s ease;
+        .intro p{
+            transition: all 1s ease;
         }
-        p:hover{
+        .intro p:hover{
             font-size : 26px;
+        }
+        .info{
+            padding: 10px;
+            font-size: 16px;
+            border : 2px solid black;
+            min-width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: right;
+            width: 80%;
+        }
+        .info p{
+            text-align: right;
+            padding: 10px;
+        }
+        .comment{
+            color:hsl(120, 80%, 20%);
         }
     </style>
 </head>
@@ -133,7 +152,7 @@
             <li> 
             <div class="profile_details">
                 <div class="profile_content">
-                    <img src="./resources/images/profile.jpg" alt="profile">
+                    <img src="./resources/images/haha.JPG" alt="profile">
                 </div>
                     
                     <div class="name_job">
@@ -157,20 +176,43 @@
                 <br>
                 <p>
                     Well, I was born in July 24th, 1991, Seoul, Korea<br>
-                    I used to live in US for a breif moment in time, but am currently living in Korea.</p><br>
+                    Currently living in Korea.<br>
+                    I wish to work abroad (meaning outside of Korea) if possible.<br>
+                    If you are interested...please do tell.<br>
+                </p>
+                <br>
                 <p>
-                    I started studying programming in 2021, and is still learning.<br>
+                    I started studying programming in 2021, and I'm still learning.<br>
                     Mainly studied 'Java' and how to build a website using Spring Framework.<br>
+                    I have basic understanding of how to use Spring framework, <br>
+                    but I still have much too learn, and eagered to do so.<br>
+                </p>
+                <br>
+                <p>
+                    Have a bachelor's degree on Math, native in Korean, fluent in English.<br>
+                    Also studied French for a bit, can't really do much with it but still.<br>
+                    Currently studying Japanese, since I'm really into Manga and Anime.<br>
+                </p>
+            </div>
+            <div class="info">
+                <p>
+                    <span class="comment">
+                        // Polkadot is my ID for multiple of sites on the internet.<br>
+                        // But my friends call me M, so...you can also call me M if you wish to do so.<br>   
+                    </span>
+                    e-mail : polkadto31361@gmail.com<br> 
                 </p>
             </div>
             <div class="code_container">
                 <pre class="code_block"> 
                     <code>
-    public ClassName{
-        public static void main(String[] args){
-            
-        }
+public ClassName{
+    public static void main(String[] args){
+
+        System.out.println("Help!!");
+
     }
+}
                     </code>
                 </pre>
             </div>
