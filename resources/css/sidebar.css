@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Consolas", sans-serif;
+    font-family: "Consolas", "meiryo", sans-serif;
 }
 .sidebar{
     position: fixed;
@@ -215,6 +215,7 @@
     width: calc(100% - 260px);
     height: 100vh;
     transition:  all 0.5s ease;
+    overflow: auto;
 }
 .sidebar.close ~ .home_section{
     left: 80px;
